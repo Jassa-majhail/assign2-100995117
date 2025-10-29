@@ -91,6 +91,8 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
 }
 
+define( 'DISALLOW_FILE_EDIT', true );
+
 define( 'WP_ENVIRONMENT_TYPE', 'local' );
 /* That's all, stop editing! Happy publishing. */
 
